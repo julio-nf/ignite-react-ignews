@@ -201,6 +201,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@stripe/stripe-js@npm:^1.13.2":
+  version: 1.13.2
+  resolution: "@stripe/stripe-js@npm:1.13.2"
+  checksum: b6a1f0de164dc8a4c7d6a898010de03670ae82c8aed154d17ba696d3c0383db2ada4eff04fc7b292574168492713bbaceaf1186cff0f780b5978fb8e2838957b
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.3":
   version: 7.0.7
   resolution: "@types/json-schema@npm:7.0.7"
@@ -363,6 +370,15 @@ __metadata:
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
   checksum: 9f9236a3cc7f56c167be3aa81c77fcab2e08dfb8047b7861b91440f20b299b9442255856bdbe9d408d7e96a0b64a36e1c27384251126962490b4eee841b533e0
+  languageName: node
+  linkType: hard
+
+"abort-controller@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "abort-controller@npm:3.0.0"
+  dependencies:
+    event-target-shim: ^5.0.0
+  checksum: cc53ad8df9a6de3f55d4f804fca5106908f855e47b572fb5ab3cdd723b76374686dcefa557a2f87d4396db77e31bc0e6ce9d48637388cef6d884c29ad2691448
   languageName: node
   linkType: hard
 
@@ -658,6 +674,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^0.21.1":
+  version: 0.21.1
+  resolution: "axios@npm:0.21.1"
+  dependencies:
+    follow-redirects: ^1.10.0
+  checksum: 864fb7b5d077d236737f10adca53bf451a93f35a15271f56fba8da07265a02d26b7d881b935a6697dc6adb0549ea3e56d2eecb403edaa3bb78f6479901c10f69
+  languageName: node
+  linkType: hard
+
 "babel-plugin-syntax-jsx@npm:6.18.0":
   version: 6.18.0
   resolution: "babel-plugin-syntax-jsx@npm:6.18.0"
@@ -672,7 +697,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"base64-js@npm:^1.0.2, base64-js@npm:^1.3.1":
+"base64-js@npm:^1.0.2, base64-js@npm:^1.2.0, base64-js@npm:^1.3.1":
   version: 1.5.1
   resolution: "base64-js@npm:1.5.1"
   checksum: c1b41a26ddc6620eb7f1ee6c29c812f5942a4e328e74263f995872cfb8ca3aee08542beb25cd10fd7ef16e4f16603e25c35a26e776c01fd55277e5035e829e0e
@@ -827,6 +852,13 @@ __metadata:
   bin:
     browserslist: cli.js
   checksum: 56f51464c3a3bd9b2aeb75ded1dc3fce5ad91bd6d84187aba812a78ba66b69bc97c2de25a1b7409daac3c0049e979bf0faa6cca4aacce0abcaf3107c250ce3fb
+  languageName: node
+  linkType: hard
+
+"btoa-lite@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "btoa-lite@npm:1.0.0"
+  checksum: d41fc7dc9f111a0082e1d67554ecdd3add151920bf5f3fbb9bdffd5c67b2e247a8c2a060607e8a2acd518eeb1b75d8a0828c36717f710ceebe0e88eb487a7394
   languageName: node
   linkType: hard
 
@@ -1174,6 +1206,15 @@ __metadata:
     safe-buffer: ^5.0.1
     sha.js: ^2.4.8
   checksum: 98957676a93081678a2a915ae14898d65aac9b5651ffa55b8888484dd9d79c06d3cb3f85b137cd833ab536d87adee17394bb2b0efc591ea0e34110266d5bcd75
+  languageName: node
+  linkType: hard
+
+"cross-fetch@npm:^3.0.6":
+  version: 3.1.3
+  resolution: "cross-fetch@npm:3.1.3"
+  dependencies:
+    node-fetch: 2.6.1
+  checksum: 9c504e00eeb43cb81c5c501046f1c65dca1a9b9e5410ace14fca62f79ea7f510d8b31de0636c0ea262d1dfe9907793ffcb2810d4ed287cb4812dcfcbcf5aeb4d
   languageName: node
   linkType: hard
 
@@ -1719,6 +1760,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"event-target-shim@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "event-target-shim@npm:5.0.1"
+  checksum: d176477a31adf328ff50148886e46cef3f61ff8bdc1d6db161f6b3ead2501085d5652a81fab8dddc59aed93727231c0b5c8a0948de77ae401b2d977a3d18329e
+  languageName: node
+  linkType: hard
+
 "events@npm:^3.0.0":
   version: 3.3.0
   resolution: "events@npm:3.3.0"
@@ -1802,6 +1850,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"faunadb@npm:^4.1.3":
+  version: 4.1.3
+  resolution: "faunadb@npm:4.1.3"
+  dependencies:
+    abort-controller: ^3.0.0
+    base64-js: ^1.2.0
+    btoa-lite: ^1.0.0
+    cross-fetch: ^3.0.6
+    dotenv: ^8.2.0
+    fn-annotate: ^1.1.3
+    object-assign: ^4.1.0
+    util-deprecate: ^1.0.2
+  checksum: d360928ec3861711a3b265651759705b0a119392da4420b1a89b1945fb94d6358fdb951685463a7853dc2bf232710a491943276afc1e2f09421f1564165c5263
+  languageName: node
+  linkType: hard
+
 "figlet@npm:^1.1.1":
   version: 1.5.0
   resolution: "figlet@npm:1.5.0"
@@ -1862,6 +1926,23 @@ __metadata:
   version: 3.1.1
   resolution: "flatted@npm:3.1.1"
   checksum: 1065cd78294ea651b8c1b96c298a3e70893a23da655e2288e40c06d5d9b1ebce4bd977e604678e01065a92580f3de5078d60d9ee4cdcede9a9989859d7eb5057
+  languageName: node
+  linkType: hard
+
+"fn-annotate@npm:^1.1.3":
+  version: 1.2.0
+  resolution: "fn-annotate@npm:1.2.0"
+  checksum: 3dc173283bbfce92ad0fae1e32e666a34c1f2bd06356011efef1b72ed4f9c7663ede06e690e791001748f7686b75505c22322bba11cba67b4a84c17185dd0434
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.10.0":
+  version: 1.13.3
+  resolution: "follow-redirects@npm:1.13.3"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 9ad74c3b66ad5c32d8c009a2afb4e5c1b9e5dbe1f631419296c21f8e4f9976ed2c52f9a676c4acdd1d7f41a8f17a03dfaa3704993b25b5965eb11bc9dc9a8ef5
   languageName: node
   linkType: hard
 
@@ -4543,14 +4624,17 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "terceiro-projeto-ignews@workspace:."
   dependencies:
+    "@stripe/stripe-js": ^1.13.2
     "@types/next-auth": ^3
     "@types/node": ^14.14.37
     "@types/react": ^17.0.3
     "@typescript-eslint/eslint-plugin": ^4.20.0
     "@typescript-eslint/parser": ^4.20.0
+    axios: ^0.21.1
     eslint: ^7.23.0
     eslint-config-prettier: ^8.1.0
     eslint-plugin-react: ^7.23.1
+    faunadb: ^4.1.3
     next: 10.1.2
     next-auth: ^3.13.3
     prettier: ^2.2.1
@@ -4837,7 +4921,7 @@ typescript@^4.2.3:
   languageName: node
   linkType: hard
 
-"util-deprecate@npm:^1.0.1, util-deprecate@npm:~1.0.1":
+"util-deprecate@npm:^1.0.1, util-deprecate@npm:^1.0.2, util-deprecate@npm:~1.0.1":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 73c2b1cf0210ccac300645384d8443cabbd93194117b2dc1b3bae8d8279ad39aedac857e020c4ea505e96a1045059c7359db3df6a9df0be6b8584166c9d61dc9
