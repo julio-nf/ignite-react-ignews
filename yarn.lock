@@ -194,6 +194,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prismicio/client@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@prismicio/client@npm:4.0.0"
+  dependencies:
+    cross-fetch: ^3.0.6
+  checksum: d24594f3f46dd4c1d11539fc373345ffb143a1e3eb6672af19f2718c13b30a14d74b7f3573789fc11dcd41c2bbcb4d2412ee518581b9434ce3ad0542e69046d4
+  languageName: node
+  linkType: hard
+
+"@prismicio/helpers@npm:^1.0.4":
+  version: 1.1.1
+  resolution: "@prismicio/helpers@npm:1.1.1"
+  checksum: 181a41d24d0bb80ff33a0fcb4c55779bac4ac851277253326ac58dca8ae7f54ff17e088698fa1b44610b215d4410a7aee6fc1894ce4a778fe0c08c8b31a07fdf
+  languageName: node
+  linkType: hard
+
+"@prismicio/richtext@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@prismicio/richtext@npm:1.1.0"
+  checksum: fae8f4652df15911568502b7d9e13246eb6368af70a5c33d715fd128128baec2195c2232a5f8152b22e3cb0636b6438e1f40486973afcc75cf60ce35785690ab
+  languageName: node
+  linkType: hard
+
 "@sqltools/formatter@npm:^1.2.2":
   version: 1.2.3
   resolution: "@sqltools/formatter@npm:1.2.3"
@@ -231,6 +254,13 @@ __metadata:
   version: 14.14.37
   resolution: "@types/node@npm:14.14.37"
   checksum: 5e2d9baf7594ebacaf016716515f30de0765169412787f981481c2fb8b468923149bb9e2e3219ee672399811672ceddc339a7372a61cf15bc656836a5494d991
+  languageName: node
+  linkType: hard
+
+"@types/prismic-dom@npm:^2":
+  version: 2.1.1
+  resolution: "@types/prismic-dom@npm:2.1.1"
+  checksum: 9c2902429492202999a86bfaa89fd1affa414b488a77e76deeacf5321eb64381a38b90fb1d6d6b221f5d0e6eb14f278c01ff82acd6f09f8cdc4aef46f4268120
   languageName: node
   linkType: hard
 
@@ -1570,6 +1600,13 @@ __metadata:
   version: 3.1.1
   resolution: "escalade@npm:3.1.1"
   checksum: 1e31ff50d66f47cd0dfffa702061127116ccf9886d1f54a802a7b3bc95b94cab0cbf5b145cc5ac199036df6fd9d1bb24af1fa1bfed87c94879e950fbee5f86d1
+  languageName: node
+  linkType: hard
+
+"escape-html@npm:1.0.3":
+  version: 1.0.3
+  resolution: "escape-html@npm:1.0.3"
+  checksum: 900a7f2b80b9f89c85b7a303d1b7a4d354b93e328871414f165f13c5c209a80eab787e3a63429e596877def69fe4dcb3d1b55af655207a901a9ec99f7f148743
   languageName: node
   linkType: hard
 
@@ -3701,6 +3738,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"prismic-dom@npm:^2.2.5":
+  version: 2.2.5
+  resolution: "prismic-dom@npm:2.2.5"
+  dependencies:
+    "@prismicio/helpers": ^1.0.4
+    "@prismicio/richtext": ^1.1.0
+    escape-html: 1.0.3
+  checksum: 3c01e6ef34909a051c45c4d07da12be3e9b6a990640441bd560ceef404019e2fddd490892044b4f5a97c2e54a5b44e196d2d7c77a6f4654020d39adbf46c5555
+  languageName: node
+  linkType: hard
+
 "process-nextick-args@npm:~2.0.0":
   version: 2.0.1
   resolution: "process-nextick-args@npm:2.0.1"
@@ -4624,9 +4672,11 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "terceiro-projeto-ignews@workspace:."
   dependencies:
+    "@prismicio/client": ^4.0.0
     "@stripe/stripe-js": ^1.13.2
     "@types/next-auth": ^3
     "@types/node": ^14.14.37
+    "@types/prismic-dom": ^2
     "@types/react": ^17.0.3
     "@typescript-eslint/eslint-plugin": ^4.20.0
     "@typescript-eslint/parser": ^4.20.0
@@ -4638,6 +4688,7 @@ resolve@^2.0.0-next.3:
     next: 10.1.2
     next-auth: ^3.13.3
     prettier: ^2.2.1
+    prismic-dom: ^2.2.5
     react: 17.0.2
     react-dom: 17.0.2
     react-icons: ^4.2.0
